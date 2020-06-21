@@ -1,0 +1,105 @@
+
+
+
+/* Small phones: from 0 - 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px;}
+    .contact-form {width: 100%;}
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-style: 16px;}
+    section { padding: 30px 0;}
+
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    } 
+
+    .col {
+        width: 100px;
+        margin: 0 0 4% 0;
+    }
+
+    .col {width: 100%;}
+
+    .main-nav { display: none;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    h1 {font-style: 180%;}
+    h2 {font-style: 150%;}
+
+    .steps-box:first-child {
+        text-align: center;
+
+    }
+
+    .works-steps div {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+        margin-right: 40px;
+        font-style: 120%;
+    }
+
+    .works-steps {margin-bottom: 20px;}
+    .works-steps:last-of-type { margin-bottom: 20px;}
+
+    .app-screen {width: 40px;}
+    
+    blockquote::before {
+        top: 5px;
+        left: -7px;
+    }
+
+    blockquote { margin-bottom: 15px;}
+    cite { margin-top: 10px;}
+
+    .section-form input[type=submit] {
+        text-align: center;
+    }
+
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+}
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0  2%;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-steps:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
+
+    .sml-icon { width: 17px; }
+    .city-feature { font-style: 90%;}
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;}
+    .plan-price {font-style: 250%;}
+    
+    .contact-form { width: 80%; }
+}}
